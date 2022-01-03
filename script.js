@@ -73,7 +73,10 @@ class Start {
 
   // métodos das categorias e suas listas de palavras
   animalCategory () {
-    const list = ['Abelha', 'Aranha', 'Arara', 'Avestruz', 'Baleia', 'Barata', 'Borboleta', 'Cabra', 'Camaleão', 'Camelo', 'Canguru', 'Cachorro', 'Capivara', 'Caranguejo', 'Cavalo', 'Coelho', 'Coruja', 'Elefante', 'Escorpião', 'Formiga', 'Gafanhoto', 'Gavião', 'Girafa', 'Golfinho', 'Grilo', 'Hipopótamo', 'Iguana', 'Jacaré', 'Javali', 'Joaninha', 'Jumento', 'Leopardo', 'Lhama', 'Macaco', 'Minhoca', 'Morcego', 'Papagaio', 'Peixe', 'Periquito', 'Pinguim', 'Pombo', 'Porco', 'Raposa', 'Rinoceronte', 'Tamanduá', 'Tartaruga', 'Tigre', 'Tubarão', 'Tucano', 'Zebra']
+    const list = ['Abelha', 'Aranha', 'Arara', 'Avestruz', 'Baleia', 'Barata', 'Borboleta', 'Cabra', 'Camaleão', 'Camelo', 'Canguru', 'Cachorro', 'Capivara', 'Caranguejo',
+    'Cavalo', 'Coelho', 'Coruja', 'Elefante', 'Escorpião', 'Formiga', 'Gafanhoto', 'Gavião', 'Girafa', 'Golfinho', 'Grilo', 'Hipopótamo', 'Iguana', 'Jacaré', 'Javali', 'Joaninha',
+    'Jumento', 'Leopardo', 'Lhama', 'Macaco', 'Minhoca', 'Morcego', 'Papagaio', 'Peixe', 'Periquito', 'Pinguim', 'Pombo', 'Porco', 'Raposa', 'Rinoceronte', 'Tamanduá', 'Tartaruga',
+    'Tigre', 'Tubarão', 'Tucano', 'Zebra']
     const category = 'Animais'
   
     this.start (list, category)
@@ -81,21 +84,34 @@ class Start {
   }
   
   nameCategory () {
-    const list = ['Adalberto', 'Adelaide', 'Adriana', 'Aécio', 'Afonso', 'Airton', 'Albert', 'Alessandra', 'Alfredo', 'Alice', 'Amanda', 'Antônio', 'Aparecida', 'Arthur', 'Bárbara', 'Beatriz', 'Benjamin', 'Bernardo', 'Bianca', 'Breno', 'Camila', 'Carolina', 'Catharine', 'Daniel', 'Danilo', 'Eduardo', 'Eliana', 'Felipe', 'Fernanda', 'Francisco', 'Gabriel', 'Giovanna', 'Guilherme', 'Gustavo', 'Helena', 'Henrique', 'Igor', 'Isabella', 'Joana', 'João', 'Joaquim', 'Júlia', 'Juliana', 'Kaique', 'Larissa', 'Leandro', 'Leonardo', 'Luana', 'Lucas', 'Luiz', 'Manuela', 'Maria', 'Mariana', 'Marina', 'Matheus', 'Miguel', 'Murilo', 'Natália', 'Nicolas', 'Otávio', 'Pablo', 'Pedro', 'Pietro', 'Rafael', 'Rebeca', 'Ricardo', 'Rodrigo', 'Robson', 'Ruan', 'Samuel', 'Sarah', 'Sophia', 'Thiago', 'Vicente', 'Vinícius', 'Vitória', 'Vitor', 'Yasmin']
+    const list = ['Adalberto', 'Adelaide', 'Adriana', 'Aécio', 'Afonso', 'Airton', 'Albert', 'Alessandra', 'Alfredo', 'Alice', 'Amanda', 'Antônio', 'Aparecida', 'Arthur',
+    'Bárbara', 'Beatriz', 'Benjamin', 'Bernardo', 'Bianca', 'Breno', 'Camila', 'Carolina', 'Catharine', 'Daniel', 'Danilo', 'Eduardo', 'Eliana', 'Felipe', 'Fernanda', 'Francisco',
+    'Gabriel', 'Giovanna', 'Guilherme', 'Gustavo', 'Helena', 'Henrique', 'Igor', 'Isabella', 'Joana', 'João', 'Joaquim', 'Júlia', 'Juliana', 'Kaique', 'Larissa', 'Leandro',
+    'Leonardo', 'Luana', 'Lucas', 'Luiz', 'Manuela', 'Maria', 'Mariana', 'Marina', 'Matheus', 'Miguel', 'Murilo', 'Natália', 'Nicolas', 'Otávio', 'Pablo', 'Pedro', 'Pietro',
+    'Rafael', 'Rebeca', 'Ricardo', 'Rodrigo', 'Robson', 'Ruan', 'Samuel', 'Sarah', 'Sophia', 'Thiago', 'Vicente', 'Vinícius', 'Vitória', 'Vitor', 'Yasmin']
     const category = 'Nomes'
     
     this.start (list, category)
   }
   
   flowerCategory () {
-    const list = ['Amarílis', 'Azaleia', 'Antúrio', 'Begônia', 'Camélia', 'Cravina', 'Cinerária', 'Crisântemo', 'Ciclame', 'Cravo', 'Gérbera', 'Gerânio', 'Hortênsia', 'Gardênia', 'Íris', 'Girassol', 'Hibisco', 'Kalanchoê', 'Lírio', 'Lisianto', 'Magnólia', 'Jacinto', 'Moréia', 'Lavanda', 'Lótus', 'Margarida', 'Narciso', 'Peônia', 'Prímula', 'Perpétua', 'Rosa', 'Torênia', 'Verbena', 'Violeta', 'Tagete', 'Tulipa', 'Orquídea', 'Papoula', 'Nemésia', 'Miosótis', 'Madressilva', 'Dália']
+    const list = ['Amarílis', 'Azaleia', 'Antúrio', 'Begônia', 'Camélia', 'Cravina', 'Cinerária', 'Crisântemo', 'Ciclame', 'Cravo', 'Gérbera', 'Gerânio', 'Hortênsia', 'Gardênia',
+    'Íris', 'Girassol', 'Hibisco', 'Kalanchoê', 'Lírio', 'Lisianto', 'Magnólia', 'Jacinto', 'Moréia', 'Lavanda', 'Lótus', 'Margarida', 'Narciso', 'Peônia', 'Prímula', 'Perpétua',
+    'Rosa', 'Torênia', 'Verbena', 'Violeta', 'Tagete', 'Tulipa', 'Orquídea', 'Papoula', 'Nemésia', 'Miosótis', 'Madressilva', 'Dália']
     const category = 'Flores'
   
     this.start (list, category)
   }
 
   objectCategory () {
-    const list = ['Abajur', 'Alicate', 'Almofada', 'Aspirador', 'Bacia', 'Balança', 'Balde', 'Banco', 'Bengala', 'Bicicleta', 'Binóculo', 'Boneca', 'Borracha', 'Brinco', 'Bússola', 'Cabide', 'Cadeado', 'Cadeira', 'Caderno', 'Calculadora', 'Caneca', 'Caneta', 'Capacete', 'Celular', 'Chinelo', 'Colchão', 'Computador', 'Despertador', 'Drone', 'Envelope', 'Escada', 'Esfregão', 'Espelho', 'Estátua', 'Estojo', 'Filmadora', 'Fogão', 'Frasco', 'Freezer', 'Frigideira', 'Furadeira', 'Gaiola', 'Garrafa', 'Gaveta', 'Guitarra', 'Helicóptero', 'Hidrante', 'Holofote', 'Impressora', 'Interfone', 'Interruptor', 'Isqueiro', 'Jaleco', 'Janela', 'Jornal', 'Lâmpada', 'Lancheira', 'Lápis', 'Lapiseira', 'Lençol', 'Liquidificador', 'Livro', 'Lixeira', 'Luminária', 'Maçaneta', 'Maçarico', 'Mamadeira', 'Mangueira', 'Máquina', 'Martelo', 'Máscara', 'Microscópio', 'Mochila', 'Monitor', 'Navio', 'Notebook', 'Óculos', 'Panela', 'Paraquedas', 'Peruca', 'Pincel', 'Prateleira', 'Prato', 'Pulseira', 'Rádio', 'Régua', 'Relógio', 'Rodapé', 'Rolha', 'Sabão', 'Sabonete', 'Sacola', 'Saleiro', 'Sapateira', 'Serrote', 'Tabuleiro', 'Tampa', 'Tapete', 'telefone', 'Televisão', 'Tesoura', 'Tigela', 'Válvula', 'Vassoura', 'Vestido', 'Vitrola']
+    const list = ['Abajur', 'Alicate', 'Almofada', 'Aspirador', 'Bacia', 'Balança', 'Balde', 'Banco', 'Bengala', 'Bicicleta', 'Binóculo', 'Boneca', 'Borracha', 'Brinco', 'Bússola',
+    'Cabide', 'Cadeado', 'Cadeira', 'Caderno', 'Calculadora', 'Caneca', 'Caneta', 'Capacete', 'Celular', 'Chinelo', 'Colchão', 'Computador', 'Despertador', 'Drone', 'Envelope',
+    'Escada', 'Esfregão', 'Espelho', 'Estátua', 'Estojo', 'Filmadora', 'Fogão', 'Frasco', 'Freezer', 'Frigideira', 'Furadeira', 'Gaiola', 'Garrafa', 'Gaveta', 'Guitarra',
+    'Helicóptero', 'Hidrante', 'Holofote', 'Impressora', 'Interfone', 'Interruptor', 'Isqueiro', 'Jaleco', 'Janela', 'Jornal', 'Lâmpada', 'Lancheira', 'Lápis', 'Lapiseira',
+    'Lençol', 'Liquidificador', 'Livro', 'Lixeira', 'Luminária', 'Maçaneta', 'Maçarico', 'Mamadeira', 'Mangueira', 'Máquina', 'Martelo', 'Máscara', 'Microscópio', 'Mochila',
+    'Monitor', 'Navio', 'Notebook', 'Óculos', 'Panela', 'Paraquedas', 'Peruca', 'Pincel', 'Prateleira', 'Prato', 'Pulseira', 'Rádio', 'Régua', 'Relógio', 'Rodapé', 'Rolha',
+    'Sabão', 'Sabonete', 'Sacola', 'Saleiro', 'Sapateira', 'Serrote', 'Tabuleiro', 'Tampa', 'Tapete', 'telefone', 'Televisão', 'Tesoura', 'Tigela', 'Válvula', 'Vassoura',
+    'Vestido', 'Vitrola']
     const category = 'Objetos'
   
     this.start (list, category)
@@ -204,20 +220,20 @@ function answer (chosenLetter) {
   }
 
   // função para tirar uma "vida" do jogador caso ele erre a letra
-  function lessLife () {
-    if (!word.includes(chosenLetter)){
+  function lessLife() {
+    if (!word.includes(chosenLetter)) {
       if (document.getElementById('gallows').innerHTML == fullLife) {
-      document.getElementById('gallows').innerHTML = fiveLives
+        document.getElementById('gallows').innerHTML = fiveLives
       } else if (document.getElementById('gallows').innerHTML == fiveLives) {
-          document.getElementById('gallows').innerHTML = fourLives
+        document.getElementById('gallows').innerHTML = fourLives
       } else if (document.getElementById('gallows').innerHTML == fourLives) {
-          document.getElementById('gallows').innerHTML = threeLives
+        document.getElementById('gallows').innerHTML = threeLives
       } else if (document.getElementById('gallows').innerHTML == threeLives) {
-          document.getElementById('gallows').innerHTML = twoLives
+        document.getElementById('gallows').innerHTML = twoLives
       } else if (document.getElementById('gallows').innerHTML == twoLives) {
-          document.getElementById('gallows').innerHTML = oneLife
+        document.getElementById('gallows').innerHTML = oneLife
       } else if (document.getElementById('gallows').innerHTML == oneLife) {
-          document.getElementById('gallows').innerHTML = gameOver
+        document.getElementById('gallows').innerHTML = gameOver
       }
     }
   }
