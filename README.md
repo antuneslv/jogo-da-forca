@@ -4,6 +4,6 @@
 
  Um simples jogo da forca feito em Javascript.
 
- [Menu Categorias]()
+ ![Layout Desktop](assets/layout-desktop.png =400x425)
 
- [Jogo]()
+ ![Layout Mobile](assets/layout-mobile.png =400x425)
