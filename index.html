@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Jogo da Forca</title>
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <main class ="main">
+
+      <h1>Jogo da Forca</h1>
+      <section id="categories">
+        <p>Escolha uma categoria:</p>
+        <div>
+          <button onclick="Start.prototype.animalCategory ()">Animal</button>
+          <button onclick="Start.prototype.nameCategory ()">Nome</button>
+          <button onclick="Start.prototype.flowerCategory ()">Flor</button>
+          <button onclick="Start.prototype.objectCategory ()">Objeto</button>
+        </div>
+      </section>
+      
+      <section class="main__gallows">
+          <div id ="gallows"></div>
+      </section>
+      
+        <section class="main__letter">
+          <div id="letter"></div>
+        </section>
+      
+        <section class="main__buttons">
+          <div id="buttons"></div>
+        </section>
+      
+        <section class="main__result">
+          <div id="result"></div>
+        </section>
+      
+    </main>
+
+    <footer>
+      <p>Desenvolvido por <a href="https://github.com/antuneslv" target="_blank">Leandro Antunes</a>.</p>
+    </footer>
+
+  </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
