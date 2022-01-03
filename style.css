@@ -10,7 +10,7 @@
 
 .main {
   background-color: white;
-  min-height: 100vh;
+  min-height: calc(100vh - 38px);
   max-width: 800px;
   margin: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
