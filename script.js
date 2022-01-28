@@ -194,7 +194,7 @@ function chosenL (id) {
   answer (chosenLetter)
 }
 
-// função para chegar se a letra escolhida está na palavra
+// função para checar se a letra escolhida está na palavra
 function answer (chosenLetter) {
   word = arrayStart[0].word
   underline = arrayStart[0].underline
